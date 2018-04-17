@@ -1,4 +1,4 @@
-class Event:
+class Events:
 
     def __init__(self):
         # Prison
