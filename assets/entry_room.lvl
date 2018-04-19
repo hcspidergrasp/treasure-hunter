@@ -1,0 +1,34 @@
+5
+1 5 3
+You've just came into the old mansion in search of the ancient tresures.
+The legend says that only the smartest and the bravest one can find the hidden treasure room.
+And here is your adventure begins...
+You're staying in the big entry hall of the old mansion.
+There are three doors. Which one you would like to open?
+1 3 101 0 0 Go to the door to your left
+1 2 102 0 0 Go to the back yard door
+1 4 103 0 0 Go to the door to your right
+2 2 3
+You are in the big entry hall again.
+Where you will go?
+1 3 101 0 0 Go to the door to your left
+1 2 102 0 0 Go to the back yard 
+1 4 103 0 0 Go to the door to your right
+3 2 3
+You are in the big entry hall again.
+Where you will go?
+1 3 101 0 0 Go to the prison
+1 3 102 0 0 Go to the back yard door
+1 5 103 0 0 Go to the door to your right
+4 2 3
+You are in the big entry hall again.
+Where you will go?
+1 5 101 0 0 Go to the door to your left
+1 4 102 0 0 Go to the back yard door
+1 4 103 0 0 Go to the guard room
+5 2 3
+You are in the big entry hall again.
+Where you will go?
+1 2 101 0 0 Go to the prison
+1 2 102 0 0 Go to the back yard door
+1 2 103 0 0 Go to the guard room

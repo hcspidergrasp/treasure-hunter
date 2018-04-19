@@ -1,11 +1,11 @@
 class Inventory:
 
     def __init__(self):
-        self._prisonKeys = false;
-        self._sunflowerSeeds = false;
-        self._guardiansMoney = false;
-        self._guardiansSword = false;
-        self._dragonsKey = false;
+        self._prisonKeys = False
+        self._sunflowerSeeds = False
+        self._guardiansMoney = False
+        self._guardiansSword = False
+        self._dragonsKey = False
 
     @property
     def prisonKeys(self):

@@ -1,12 +1,16 @@
 class LevelCodes:
+    
+    __parsedLevelCodes = None
 
     def __init__(self, path):
-        rawLevelCodes = open(path).readlines()
-        self._parsedLevelCodes = dict()
+        fileIO = open(path)
+        rawLevelCodes = fileIO.readlines()
+        self.__parsedLevelCodes = dict()
         for line in rawLevelCodes:
             parsed = line.strip().split(" ")
-            self._parsedLevelCodes[parsed[0]] = parsed[1]
+            self.__parsedLevelCodes[int(parsed[0])] = parsed[1]
+        fileIO.close()
         
 
     def resolveLevelFileByCode(self, code):
-        return self._parsedLevelCodes[code]
+        return self.__parsedLevelCodes[code]

@@ -2,22 +2,22 @@ class Events:
 
     def __init__(self):
         # Prison
-        self.metGopnik = false
-        self.keyFound = false
-        self.gopnikKilled = false
-        self.robedGopnik = false
-        self.returnedMoney = false
+        self.metGopnik = False
+        self.keyFound = False
+        self.gopnikKilled = False
+        self.robedGopnik = False
+        self.returnedMoney = False
 
         # Guardian Room
-        self.metGuardian = false
-        self.guardianKilled = false
-        self.robedGuardian = false
+        self.metGuardian = False
+        self.guardianKilled = False
+        self.robedGuardian = False
         
         # Yard
-        self.tauntedPigeons = false
-        self.fedPigeons = false
+        self.tauntedPigeons = False
+        self.fedPigeons = False
         
         # Dragon Room
-        self.metDragon = false
-        self.wonDragon = false
-        self.loseToDragon = false
+        self.metDragon = False
+        self.wonDragon = False
+        self.loseToDragon = False
