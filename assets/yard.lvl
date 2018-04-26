@@ -1,0 +1,25 @@
+4
+1 4 3
+You've just came to the back yard.
+There is a pack of big wild pigeons sitting there.
+It looks like they are messing around something.
+What will you do?
+0 2 102 0 0 Taunt the pigeons
+0 3 102 0 0 Fight the pigeons
+1 1 100 0 0 Return to the mansion
+2 2 3
+Looks like the pigeons are becoming angry.
+You should be careful
+0 4 102 0 0 Taunt the pigeons
+0 3 102 0 0 Fight the pigeons
+1 1 100 0 0 Return to the mansion
+3 2 1
+You were brutally pecked to death by the big wild pigeons.
+What a shameful death...
+1 1 0 0 0 Exit Game
+4 4 1
+Pigeons have just started to chase you all over the back yard!
+You are tried to run, but they surrounded you...
+And brutally pooped on you until you had finally suffocated...
+The most filthy death ever!
+1 1 0 0 0 Exit Game

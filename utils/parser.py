@@ -5,7 +5,7 @@ from system.level import Level
 
 class LevelParser:
     
-    __parsedLevel = None
+    __parsedLevel: Level = None
 
     def parseLevel(self, path):
         fileHandler = open(path)
@@ -15,7 +15,7 @@ class LevelParser:
         fileHandler.close()
 
     @property
-    def parsedLevel(self):
+    def parsedLevel(self) -> Level:
         return self.__parsedLevel
 
 # Functions
