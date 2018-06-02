@@ -1,6 +1,8 @@
+from typing import List
+
 from system.metadata import LevelMetadata
 from system.scenario import Scenario
-from typing import List
+
 
 class Level:
 
@@ -16,7 +18,7 @@ class Level:
     def scenarios(self) -> List[Scenario]:
         return self.__scenarios
 
-    def getScenarioByState(self, state) -> Scenario:
+    def get_scenario_by_state(self, state) -> Scenario:
         for scenario in self.__scenarios:
-            if scenario.stateId is state:
+            if scenario.state_id is state:
                 return scenario

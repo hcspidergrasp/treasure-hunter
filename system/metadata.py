@@ -1,28 +1,27 @@
 class LevelMetadata:
-
     __scenariosCount = None
 
-    def __init__(self, scenariosCount):
-        self.__scenariosCount = int(scenariosCount)
+    def __init__(self, scenarios_count):
+        self.__scenariosCount = int(scenarios_count)
 
     @property
-    def scenariosCount(self):
+    def scenarios_count(self):
         return self.__scenariosCount
 
+
 class ScenarioMetadata:
-    
     __stateId = None
     __conditional = None
     __messageCount = None
     __actionCount = None
 
-    def __init__(self, stateId, messageCount, actionCount):
-        self.__stateId = int(stateId)
-        self.__messageCount = int(messageCount)
-        self.__actionCount = int(actionCount)
+    def __init__(self, state_id, message_count, action_count):
+        self.__stateId = int(state_id)
+        self.__messageCount = int(message_count)
+        self.__actionCount = int(action_count)
 
     @property
-    def stateId(self):
+    def state_id(self):
         return self.__stateId
 
     @property
@@ -30,15 +29,15 @@ class ScenarioMetadata:
         return self.__conditional
 
     @property
-    def messageCount(self):
+    def message_count(self):
         return self.__messageCount
 
     @property
-    def actionCount(self):
+    def action_count(self):
         return self.__actionCount
 
+
 class ActionMetadata:
-    
     __levelChange = None
     __levelState = None
     __levelCode = None
@@ -46,34 +45,34 @@ class ActionMetadata:
     __decisionChange = None
     __actionMessage = None
 
-    def __init__(self, levelChange, levelState, levelCode, inventoryChange, decisionChange, *actionMessage):
-        self.__levelChange = bool(int(levelChange))
-        self.__levelState = int(levelState)
-        self.__levelCode = int(levelCode)
-        self.__inventoryChange = bool(int(inventoryChange))
-        self.__decisionChange = bool(int(decisionChange))
-        self.__actionMessage = " ".join(actionMessage)
+    def __init__(self, level_change, level_state, level_code, inventory_change, decision_change, *action_message):
+        self.__levelChange = bool(int(level_change))
+        self.__levelState = int(level_state)
+        self.__levelCode = int(level_code)
+        self.__inventoryChange = bool(int(inventory_change))
+        self.__decisionChange = bool(int(decision_change))
+        self.__actionMessage = " ".join(action_message)
 
     @property
-    def levelChange(self):
+    def level_change(self):
         return self.__levelChange
 
     @property
-    def levelState(self):
+    def level_state(self):
         return self.__levelState
 
     @property
-    def levelCode(self):
+    def level_code(self):
         return self.__levelCode
 
     @property
-    def inventoryChange(self):
+    def inventory_change(self):
         return self.__inventoryChange
-        
+
     @property
-    def decisionChange(self):
+    def decision_change(self):
         return self.__decisionChange
 
     @property
-    def actionMessage(self):
+    def action_message(self):
         return self.__actionMessage

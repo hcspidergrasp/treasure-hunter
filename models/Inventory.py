@@ -8,41 +8,41 @@ class Inventory:
         self._dragonsKey = False
 
     @property
-    def prisonKeys(self):
+    def prison_keys(self):
         return self._prisonKeys
 
-    @prisonKeys.setter
-    def prisonKeys(self, value):
+    @prison_keys.setter
+    def prison_keys(self, value):
         self._prisonKeys = value
 
     @property
-    def sunflowerSeeds(self):
+    def sunflower_seeds(self):
         return self._sunflowerSeeds
     
-    @sunflowerSeeds.setter
-    def sunflowerSeeds(self, value):
+    @sunflower_seeds.setter
+    def sunflower_seeds(self, value):
         self._sunflowerSeeds = value
 
     @property
-    def guardiansMoney(self):
+    def guardians_money(self):
         return self._guardiansMoney
 
-    @guardiansMoney.setter
-    def guardiansMoney(self, value):
+    @guardians_money.setter
+    def guardians_money(self, value):
         self._guardiansMoney
 
     @property
-    def guardiansSword(self):
+    def guardians_sword(self):
         return self._guardiansSword
 
-    @guardiansSword.setter
-    def guardiansSword(self, value):
+    @guardians_sword.setter
+    def guardians_sword(self, value):
         self._guardiansSword = value
 
     @property
-    def dragonsKey(self):
+    def dragons_key(self):
         return self._dragonsKey
 
-    @dragonsKey.setter
-    def dragonsKey(self, value):
+    @dragons_key.setter
+    def dragons_key(self, value):
         self._dragonsKey = value

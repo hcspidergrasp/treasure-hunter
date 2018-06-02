@@ -1,21 +1,22 @@
 from system.scenario import Scenario
 
+
 class GameUI:
 
-    def __printScenarioMessages(self, scenario: Scenario):
+    def __print_scenario_messages(self, scenario: Scenario):
         print("\n")
-        for message in scenario.messageSequence():
+        for message in scenario.message_sequence():
             print(message)
 
-    def __printScenarioActions(self, scenario: Scenario):
-        for action in scenario.actionsSequence():
+    def __print_scenario_actions(self, scenario: Scenario):
+        for action in scenario.actions_sequence():
             print(action)
 
-    def __requestActionFromUser(self) -> int:
-        actionNumber = input("-> ")
-        return int(actionNumber) - 1
+    def __request_action_from_user(self) -> int:
+        action_number = input("-> ")
+        return int(action_number) - 1
 
-    def printScenarioAndRequestAction(self, scenario: Scenario) -> int:
-        self.__printScenarioMessages(scenario)
-        self.__printScenarioActions(scenario)
-        return self.__requestActionFromUser()
+    def print_scenario_and_request_action(self, scenario: Scenario) -> int:
+        self.__print_scenario_messages(scenario)
+        self.__print_scenario_actions(scenario)
+        return self.__request_action_from_user()
